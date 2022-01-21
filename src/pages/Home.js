@@ -237,7 +237,7 @@ function Home() {
       time: "04 JUN 3:10 PM",
     },
     {
-      title: "New card added for order #4826321",
+      title: "New card added for order -- #4826321",
       time: "02 JUN 2:45 PM",
     },
     {

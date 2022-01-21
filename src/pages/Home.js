@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import { Card, Col, Row, Typography, Tooltip, Progress, Upload, message, Button, Timeline, Radio } from "antd";
-import { ToTopOutlined, MenuUnfoldOutlined, RightOutlined } from "@ant-design/icons";
+import { Card, Col, Row, Typography, Tooltip, Progress, Upload, message, Timeline } from "antd";
+// import { ToTopOutlined, MenuUnfoldOutlined, RightOutlined } from "@ant-design/icons";
 import Paragraph from "antd/lib/typography/Paragraph";
 
-import Echart from "../components/chart/EChart";
+// import Echart from "../components/chart/EChart";
 import LineChart from "../components/chart/LineChart";
 
 import ava1 from "../assets/images/logo-shopify.svg";
@@ -17,14 +17,12 @@ import team1 from "../assets/images/team-1.jpg";
 import team2 from "../assets/images/team-2.jpg";
 import team3 from "../assets/images/team-3.jpg";
 import team4 from "../assets/images/team-4.jpg";
-import card from "../assets/images/info-card-1.jpg";
+// import card from "../assets/images/info-card-1.jpg";
 
 function Home() {
   const { Title, Text } = Typography;
 
-  const onChange = (e) => console.log(`radio checked:${e.target.value}`);
-
-  const [reverse, setReverse] = useState(false);
+  const [reverse] = useState(false);
 
   const dollor = [
     <svg width="22" height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" key={0}>

@@ -17,7 +17,8 @@ import "./assets/styles/responsive.css";
 function App() {
   return (
     <div className="App">
-      <Switch>
+      hello ther
+      {/* <Switch>
         <Redirect exact from="/" to="/sign-in" />
         <Route path="/sign-up" exact component={SignUp} />
         <Route path="/sign-in" exact component={SignIn} />
@@ -31,7 +32,7 @@ function App() {
           <Route exact path="/new-order" component={NewOrder} />
           <Route exact path="/test" component={TestPage} />
         </Main>
-      </Switch>
+      </Switch> */}
     </div>
   );
 }

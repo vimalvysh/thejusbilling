@@ -1,5 +1,5 @@
 import { Switch, Route, Redirect } from "react-router-dom";
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 // import Tables from "./pages/Tables";
 // import Billing from "./pages/Billing";
 // import Rtl from "./pages/Rtl";

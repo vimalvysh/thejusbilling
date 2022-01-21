@@ -1,19 +1,19 @@
 {
-  "short_name": "Thejus Billing",
-  "name": "Thejus Billing",
+  "short_name": "Vimal Malayil",
+  "name": "Vimal-Malayil",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
-      "src": "favicon.png",
+      "src": "clrBooks.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "books.png",
       "type": "image/png",
       "sizes": "512x512"
     }

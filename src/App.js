@@ -18,9 +18,9 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Redirect exact from="/" to="/sign-in" />
+        {/* <Redirect exact from="/" to="/sign-in" /> */}
         <Route path="/sign-up" exact component={SignUp} />
-        <Route path="/sign-in" exact component={SignIn} />
+        <Route path="/" exact component={SignIn} />
 
         <Main>
           <Route exact path="/dashboard" component={Home} />

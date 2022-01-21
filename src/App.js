@@ -10,7 +10,7 @@ import NewOrder from "./pages/NewOrder";
 import TestPage from "./pages/TestPage";
 
 import Main from "./components/layout/Main";
-// import "antd/dist/antd.css";
+import "antd/dist/antd.css";
 import "./assets/styles/main.css";
 import "./assets/styles/responsive.css";
 
